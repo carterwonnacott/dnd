@@ -1,0 +1,136 @@
+.bg-dark {
+  background-color: #CE0101 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #303030 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #303030 !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #202020 !important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(0,0,0,.5) !important;
+    border-color: rgba(0,0,0,.1) !important;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-family: Georgia;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #CE0101
+}
+
+.gyroid {
+  margin: 20px;
+  width: 100%;
+}
+
+.home {
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  margin: 100px;
+  color: #D0D0D0;
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+.selfie, .gyroid {
+  display: flex;
+  justify-content: center;
+}
+
+.selfie {
+  margin-top: 50px;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+
+}
+
+.image {
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+  vertical-align: top;
+  backface-visibility: hidden;
+  column-gap: 0;
+  padding-bottom: 25px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .portfolio {
+    column-count: 2;
+  }
+}
+
+.portfolio {
+  column-count: 3;
+  column-fill: initial;
+  margin: 1.5em auto;
+  max-width: 768px;
+  column-gap: 1.5em;
+}
+
+.top {
+  font-size: 60px !important;
+  font-family: Georgia !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  margin-top: 200px !important;
+  color: #FFF !important;
+}
+
+
+.review {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #ccc;
+}
+
+.review h1 {
+  font-size: 35px;
+  font-family: Georgia;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.review p {
+  font-size: 20px;
+  font-family: Georgia;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.reviews{
+  margin: 35px;
+  background-color: #900;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+body {
+  background-color: #303030;
+}
