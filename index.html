@@ -11,6 +11,31 @@
   
   <h1>D&D Database</h1>
   
+  <form class="search>" <fieldset>
+    <legend>Search from something within the following categories:</legend>
+    <input placeholder="search" id="search">
+    <br>
+    <p></p>
+    <select id="selector">
+      <option value="ability-scores">Ability Scores</option>
+      <option value="skills">Skills</option>
+      <option value="proficiencies">Proficiencies</option>
+      <option value="languages">Languages</option>
+      <option value="classes">Classes</option>
+      <option value="subclasses">Subclasses</option>
+      <option value="races">Races</option>
+      <option value="subraces">Subraces</option>
+      <option value="equipment">Equipment</option>
+      <option value="spells">Spells</option>
+      <option value="monsters">Monsters</option>
+      <option value="conditions">Conditions</option>
+    </select>
+    <p></p>
+    <button id="button" class="pure-button pure-button-primary">Search</button>
+    </fieldset>          
+  </form>
+  <p id="result"></p>
+  
   <script src="script.js">
   </script>
   
