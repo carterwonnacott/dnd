@@ -26,7 +26,7 @@ function onClick(e) {
       }
       results += "<p>Skills:</p><ul>";
       for (var i = 0; i < Object.keys(json.skills).length; i++) {
-        results += "<li>" + json.desc[i].name + "</li>";
+        results += "<li>" + json.skills[i].name + "</li>";
       }
       results += "</ul>";
     }
@@ -62,7 +62,7 @@ function onClick(e) {
     }
     else if (cat === "classes") {
       results += "<h2>" + json.name + "</h2>";
-      results += "<p>Hit Die: " + json.hit_die + "d<p>";
+      results += "<p>Hit Die: d" + json.hit_die + "<p>";
       for (var i = 0; i < Object.keys(json.proficiency_choices).length; i++) {
         results += "<p>Choose " + json.proficiency_choices[i].choose + " " + json.proficiency_choices[i].type + ":</p>";
         results += "<ul>";

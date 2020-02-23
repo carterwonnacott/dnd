@@ -40,6 +40,18 @@ h1, h2, legend, p, ul {
   color: #DDD;
 }
 
+h2 {
+  padding-top: 20px;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.descriptor {
+  padding-left: 0px !important;
+}
+
 .inside {
   padding: 20px;
 }
