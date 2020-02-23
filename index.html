@@ -3,19 +3,38 @@
 
 <head>
   <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
   <title>D&D Database</title>
-  <link href="styles.css>
 </head>
 
 <body>
-  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Cartcott</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="inside">
   <h1>D&D Database</h1>
-  
+
+
   <form class="pure-form>" <fieldset>
     <legend>Search from something within the following categories:</legend>
-    <input placeholder="search" id="search">
-    <br>
-    <p></p>
     <select id="category">
       <option value="ability-scores">Ability Scores</option>
       <option value="skills">Skills</option>
@@ -27,19 +46,23 @@
       <option value="subraces">Subraces</option>
       <option value="equipment">Equipment</option>
       <option value="spells">Spells</option>
-      <option value="monsters">Monsters</option>
+      <!--<option value="monsters">Monsters</option>-->
       <option value="conditions">Conditions</option>
     </select>
+    <input placeholder="search" id="search">
+    <br>
     <p></p>
+    <p>Enter your query in all lowercase, with hyphens between multiple words if applicable.  For ability scores, please use the 3-letter abbreviation.</p>
     <button id="button" class="pure-button pure-button-primary">Search</button>
-    </fieldset>          
+    </fieldset>
   </form>
   <div id="result">
   </div>
-  
-  <script src="script.js">
+
+  <script text="type/javascript" src="script.js">
   </script>
-  
+  </div>
+
 </body>
 
 </html>
